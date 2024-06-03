@@ -1,0 +1,56 @@
+.films__data {
+	
+}
+.film__info {
+	background-color: #dadada;	
+}
+
+.film__description {
+	width: 200px;
+}
+.film__year {
+}
+.film__rating {
+}
+.film__poster{
+	width: 200px;
+}
+
+.film__poster img {
+	width: 100%;
+}
+
+.film__genre {
+}
+.film__age {
+}
+
+.table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #d8d8d8;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.table tbody td {
+	text-align: left;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.table thead tr th:first-child, .table tbody tr td:first-child {
+	border-left: none;
+}
+.table thead tr th:last-child, .table tbody tr td:last-child {
+	border-right: none;
+}
+.table tbody tr{
+	background: #e6e6e6;
+}

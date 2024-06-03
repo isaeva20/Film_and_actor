@@ -1,0 +1,32 @@
+[
+	{
+		"id": 0,
+		"title": "The Godfather", 
+		"description": "MY SHINEE WORLD - фильм-концерт, посвященный 15-летию группы SHINee. Всех фанатов ждет уникальное шоу, в котором будут представлены самые яркие моменты группы и фандома за последние 15 лет.", 
+		"year": "1972", 
+		"rating": "9.2", 
+		"poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg", "duration": "2h 55m",
+		"genre": ["Crime", "Drama"],
+		"age": "18+"
+	},
+	{
+		"id": 1,
+		"title": "The Godfather", 
+		"description": "MY SHINEE WORLD - фильм-концерт, посвященный 15-летию группы SHINee. Всех фанатов ждет уникальное шоу, в котором будут представлены самые яркие моменты группы и фандома за последние 15 лет.", 
+		"year": "1972", 
+		"rating": "9.2", 
+		"poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg", "duration": "2h 55m",
+		"genre": ["Crime", "Drama"],
+		"age": "18+"
+	},
+	{
+		"id": 2,
+		"title": "The Godfather", 
+		"description": "MY SHINEE WORLD - фильм-концерт, посвященный 15-летию группы SHINee. Всех фанатов ждет уникальное шоу, в котором будут представлены самые яркие моменты группы и фандома за последние 15 лет.", 
+		"year": "1972", 
+		"rating": "9.2", 
+		"poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg", "duration": "2h 55m",
+		"genre": ["Crime", "Drama"],
+		"age": "18+"
+	}
+]

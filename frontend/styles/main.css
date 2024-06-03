@@ -1,0 +1,120 @@
+@import url('./colors.css');
+
+/* GENERALS */
+
+body {
+	font-size: 16px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+	background-color: #a3a3a3;
+	margin-bottom: 50px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar {
+}
+.navbar__list {
+	font-size: 24px;
+	color: #fff;
+}
+.navbar__item {
+	font-size: inherit;
+}
+
+.profile {
+	display: flex;
+	column-gap: 20px;
+}
+.profile__avatar {
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background: #b0b0b0;
+}
+.profile__info {
+}
+.profile__name {
+}
+.profile__status {
+}
+
+/* MAIN */
+.main {
+}
+
+.films__wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+.film {
+	display: flex;
+	column-gap: 20px;
+}
+.film__poster {
+	width: 100%;
+	max-width: 300px;
+}
+.film__info {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+.film__title {
+	font-size: clamp(24px, 3vw, 42px);
+}
+
+.film__year {
+	font-size: clamp(18px, 3vw, 24px);
+}
+
+.film__age {
+	
+}
+
+.film__description {
+	font-size: clamp(18px, 3vw, 24px);
+}
+.film__rating {
+	font-size: 20px;
+}
+.film__genre {
+
+}
+.film__genre-list {
+	display: flex;
+	column-gap: 5px;
+}
+.film__genre-item {
+	padding: 10px;
+	background-color: #a3a3a3;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 17px;
+}
+
+.film__genre-item::before {
+	content: "#	";
+	font-weight: 600;
+	color: #2499f3;
+}
+.film__duration {
+	font-size: 22px;
+}
+.film__duration-value {
+	font-size: 1.1em;
+}
+
+/* FOOTER */
+
+.footer {
+}
