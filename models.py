@@ -4,8 +4,6 @@ from sqlalchemy import CheckConstraint, ForeignKey, UniqueConstraint
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
 
-
-
 class Base(DeclarativeBase):
     """Базовый класс для таблиц."""
 
