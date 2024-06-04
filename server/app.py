@@ -2,8 +2,12 @@ from fastapi import FastAPI
 from fastapi.encoders import jsonable_encoder
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from json import load
+from filmsController import FILMS
 import uvicorn
+
+def search_film(title: str = ''):
+    return [film for film in FILMS if title in film['title'].lower()]
+
 
 app = FastAPI()
 
@@ -21,13 +25,19 @@ app.add_middleware(
     max_age = 3600,
 )
 
+@app.post('/api/authorization')
+async def authorization():
+    return JSONResponse(status_code=200, content={'data': {'login': 'gaga', 'password': '1233', 'status': 'admin'}})
+
 @app.get('/api/films')
 async def get_films():
-    with open('server\\films.json', 'r', encoding='utf-8') as file:
-        json_data = jsonable_encoder(load(file))
-
+    json_data = jsonable_encoder(FILMS)
     return JSONResponse(status_code=200, content=json_data)
 
+@app.post('/api/films/search')
+async def searh_film(title: str = ''):
+    json_data = jsonable_encoder(search_film(title))
+    return JSONResponse(status_code=200, content=json_data)
 
 if __name__ == '__main__':
     uvicorn.run("app:app", reload=True)

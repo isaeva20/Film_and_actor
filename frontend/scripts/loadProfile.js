@@ -1,4 +1,4 @@
-import requestFilms from "./requestPages.js";
+import { requestGetFilms, requestSearchFilms, requestDeleteFilm, requestEditFilm, requestAddFilm } from "./requestPages.js";
 
 function createFilmInfoCard(film) {
 	return `
@@ -15,13 +15,30 @@ function createFilmInfoCard(film) {
 	`
 }
 
-document.addEventListener('DOMContentLoaded', ()=> {
-	const filmsContainer = document.querySelector('.films__data')
+function searchFilm(query, params) {
+	return requestSearchFilms({'title': query.toLowerCase()})
+}
 
-	requestFilms().then(data => {
-		data.forEach(film => {
-			console.log(film)
-			filmsContainer.insertAdjacentHTML('beforeend', createFilmInfoCard(film))
-		})
+
+function drawFilmCards(container, films) {
+	films.forEach(film => {
+		container.insertAdjacentHTML('beforeend', createFilmInfoCard(film))
+	})
+}
+const filmsContainer = document.querySelector('.films__data')
+document.addEventListener('DOMContentLoaded', ()=> {
+	requestGetFilms().then(data => {
+		drawFilmCards(filmsContainer, data)
+	})
+})
+
+const searchField = document.querySelector('.search__input')
+const searchButton = document.querySelector('.search__button')
+
+searchButton.addEventListener('click', () => {
+	filmsContainer.innerHTML = ''
+	const query = searchField.value
+	searchFilm(query).then(data => {
+		data.length ? drawFilmCards(filmsContainer, data) : filmsContainer.innerHTML = 'Ничего не найдено'
 	})
 })

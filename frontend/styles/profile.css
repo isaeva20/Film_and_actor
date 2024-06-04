@@ -25,6 +25,24 @@
 .film__age {
 }
 
+
+/* SEARCH */
+.search {
+	margin-bottom: 20px;
+}
+
+.search__input {
+	padding: 5px;
+	font-size: 20px;
+}
+
+.search__button {
+	padding: 5px 10px;
+	font-size: 20px;
+}
+
+
+/* TABLE */
 .table {
 	width: 100%;
 	border: none;
