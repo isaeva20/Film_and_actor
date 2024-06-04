@@ -1,30 +1,6 @@
 .films__data {
 	
 }
-.film__info {
-	background-color: #dadada;	
-}
-
-.film__description {
-	width: 200px;
-}
-.film__year {
-}
-.film__rating {
-}
-.film__poster{
-	width: 200px;
-}
-
-.film__poster img {
-	width: 100%;
-}
-
-.film__genre {
-}
-.film__age {
-}
-
 
 /* SEARCH */
 .search {
@@ -71,4 +47,48 @@
 }
 .table tbody tr{
 	background: #e6e6e6;
+}
+
+.film__data-row {
+	position: relative;
+}
+
+.film__title {
+	font-size: 18px !important;
+}
+
+.film__description {
+	overflow-y: auto;
+	display: inline-block;
+	padding: 5px;
+	max-height: 250px;
+	width: 100%;
+	font-size: 18px !important;
+}
+.film__year {
+}
+.film__rating {
+}
+.film__poster{
+	width: 200px;
+}
+
+.film__poster img {
+	width: 100%;
+}
+
+.film__genre {
+
+}
+.film__age {
+}
+
+.control__buttons {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.control__buttons button {
+	padding: 10px;
 }

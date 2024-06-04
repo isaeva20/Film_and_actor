@@ -3,7 +3,7 @@ function drawFilmCard(film) {
 	<div class="film">
 		<img src="${film.poster}" alt="" class="film__poster">
 		<div class="film__info">
-			<h3 class="film__title">${film.title} <span class='film__age'>${film.age}</span></h3>
+			<h3 class="film__title">${film.title}, <span class='film__age'>${film.age}+</span></h3>
 			<p class='film__year'>Вышел: ${film.year}</p>
 			<div class="film__genre">
 				<ul class="film__genre-list">

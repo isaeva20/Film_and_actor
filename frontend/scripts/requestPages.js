@@ -9,7 +9,7 @@ async function requestGetFilms() {
 }
 
 async function requestDeleteFilm(data = {}) {
-	return await fetch(`http://127.0.0.1:8000/api/films?id=${data.id}`, {
+	return await fetch(`http://127.0.0.1:8000/api/films/delete?id=${data.id}`, {
 		method: 'DELETE',
 		headers: {
 			'Accept': 'application/json',
@@ -30,7 +30,7 @@ async function requestAddFilm(method = 'POST', data = {}) {
 }
 
 async function requestEditFilm(data = {}) {
-	return await fetch(`http://127.0.0.1:8000/api/films/${data.id}`, {
+	return await fetch(`http://127.0.0.1:8000/api/films/?id=${data.id}`, {
 		method: 'PUT',
 		headers: {
 			'Accept': 'application/json',

@@ -1,23 +1,24 @@
 [
 	{
 		"id": 0,
-		"title": "The Godfather 1", 
+		"title": "The Godfather", 
 		"description": "MY SHINEE WORLD - фильм-концерт, посвященный 15-летию группы SHINee. Всех фанатов ждет уникальное шоу, в котором будут представлены самые яркие моменты группы и фандома за последние 15 лет.", 
 		"year": "1972", 
 		"rating": "9.2", 
-		"poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg", "duration": "2h 55m",
-		"genre": ["Crime", "Drama"],
-		"age": "18+"
+		"poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg", "duration": "2 часа 55 минут",
+		"genre": ["криминальная ", "Драма"],
+		"age": 18
 	},
 	{
 		"id": 1,
-		"title": "The Godfather 2", 
-		"description": "MY SHINEE WORLD - фильм-концерт, посвященный 15-летию группы SHINee. Всех фанатов ждет уникальное шоу, в котором будут представлены самые яркие моменты группы и фандома за последние 15 лет.", 
-		"year": "1972", 
-		"rating": "9.2", 
-		"poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg", "duration": "2h 55m",
-		"genre": ["Crime", "Drama"],
-		"age": "18+"
+		"title": "Майор Гром: Игра", 
+		"description": "Майор полиции Игорь Гром известен всему Санкт-Петербургу пробивным характером и непримиримой позицией по отношению к преступникам всех мастей. Неимоверная сила, аналитический склад ума и неподкупность — все это делает майора Грома самым настоящим супергероем. Его жизнь идеальна: днем Гром ловит преступников вместе с напарником Димой Дубиным, а вечера проводит в компании журналистки Юлии Пчелкиной. Полную идиллию прерывает появление в городе таинственного злодея, называющего себя Призраком. Он предлагает Грому сыграть в опасную игру, ставка в которой — жизни обычных людей.", 
+		"year": "2024", 
+		"rating": "6.5", 
+		"poster": "https://static.kinoafisha.info/k/movie_posters/1080x1920/upload/movie_posters/4/7/2/8369274/767862177911.jpg", 
+		"duration": "2 часа 42 минуты",
+		"genre": ["Боевик", "Приключения"],
+		"age": 12
 	},
 	{
 		"id": 2,
@@ -27,6 +28,6 @@
 		"rating": "9.2", 
 		"poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg", "duration": "2h 55m",
 		"genre": ["Crime", "Drama"],
-		"age": "18+"
+		"age": 18
 	}
 ]
